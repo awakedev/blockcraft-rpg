@@ -1,0 +1,175 @@
+{
+  "contractName": "LunarStrike",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820d0730667852784911b1d3ce40c197b6f292ae20c172a89b1887469059cec75810029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820d0730667852784911b1d3ce40c197b6f292ae20c172a89b1887469059cec75810029",
+  "sourceMap": "62:40:10:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;62:40:10;;;;;;;",
+  "deployedSourceMap": "62:40:10:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\nimport \"../Spell.sol\";\r\n\r\ncontract LunarStrike is Spell {\r\n    \r\n}",
+  "sourcePath": "C:/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spells/LunarStrike.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spells/LunarStrike.sol",
+    "exportedSymbols": {
+      "LunarStrike": [
+        104
+      ]
+    },
+    "id": 105,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 100,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:10"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 101,
+        "nodeType": "ImportDirective",
+        "scope": 105,
+        "sourceUnit": 87,
+        "src": "36:22:10",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 102,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 86,
+              "src": "86:5:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$86",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 103,
+            "nodeType": "InheritanceSpecifier",
+            "src": "86:5:10"
+          }
+        ],
+        "contractDependencies": [
+          86
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 104,
+        "linearizedBaseContracts": [
+          104,
+          86
+        ],
+        "name": "LunarStrike",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 105,
+        "src": "62:40:10"
+      }
+    ],
+    "src": "0:102:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spells/LunarStrike.sol",
+    "exportedSymbols": {
+      "LunarStrike": [
+        104
+      ]
+    },
+    "id": 105,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 100,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:10"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 101,
+        "nodeType": "ImportDirective",
+        "scope": 105,
+        "sourceUnit": 87,
+        "src": "36:22:10",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 102,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 86,
+              "src": "86:5:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$86",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 103,
+            "nodeType": "InheritanceSpecifier",
+            "src": "86:5:10"
+          }
+        ],
+        "contractDependencies": [
+          86
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 104,
+        "linearizedBaseContracts": [
+          104,
+          86
+        ],
+        "name": "LunarStrike",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 105,
+        "src": "62:40:10"
+      }
+    ],
+    "src": "0:102:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2018-12-19T18:04:06.360Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

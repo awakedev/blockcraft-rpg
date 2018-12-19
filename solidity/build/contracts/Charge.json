@@ -1,0 +1,175 @@
+{
+  "contractName": "Charge",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820fad9b130e245c84159f509dc1796ac5f4c374c9f49cd82b06056e9ccae3ea8570029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820fad9b130e245c84159f509dc1796ac5f4c374c9f49cd82b06056e9ccae3ea8570029",
+  "sourceMap": "64:35:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;64:35:8;;;;;;;",
+  "deployedSourceMap": "64:35:8:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\n\r\nimport \"../Spell.sol\";\r\n\r\ncontract Charge is Spell {\r\n    \r\n}",
+  "sourcePath": "C:/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spells/Charge.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spells/Charge.sol",
+    "exportedSymbols": {
+      "Charge": [
+        92
+      ]
+    },
+    "id": 93,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 88,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:8"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 89,
+        "nodeType": "ImportDirective",
+        "scope": 93,
+        "sourceUnit": 87,
+        "src": "38:22:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 90,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 86,
+              "src": "83:5:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$86",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 91,
+            "nodeType": "InheritanceSpecifier",
+            "src": "83:5:8"
+          }
+        ],
+        "contractDependencies": [
+          86
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 92,
+        "linearizedBaseContracts": [
+          92,
+          86
+        ],
+        "name": "Charge",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 93,
+        "src": "64:35:8"
+      }
+    ],
+    "src": "0:99:8"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spells/Charge.sol",
+    "exportedSymbols": {
+      "Charge": [
+        92
+      ]
+    },
+    "id": 93,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 88,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:8"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 89,
+        "nodeType": "ImportDirective",
+        "scope": 93,
+        "sourceUnit": 87,
+        "src": "38:22:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 90,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 86,
+              "src": "83:5:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$86",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 91,
+            "nodeType": "InheritanceSpecifier",
+            "src": "83:5:8"
+          }
+        ],
+        "contractDependencies": [
+          86
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 92,
+        "linearizedBaseContracts": [
+          92,
+          86
+        ],
+        "name": "Charge",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 93,
+        "src": "64:35:8"
+      }
+    ],
+    "src": "0:99:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2018-12-19T18:04:06.360Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

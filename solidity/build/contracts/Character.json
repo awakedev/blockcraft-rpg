@@ -1,0 +1,109 @@
+{
+  "contractName": "Character",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820ef373fcc146bca10d54c9dc165fa822eed85605a0ce2093f3ba74585c2cb8b890029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820ef373fcc146bca10d54c9dc165fa822eed85605a0ce2093f3ba74585c2cb8b890029",
+  "sourceMap": "36:25:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:25:0;;;;;;;",
+  "deployedSourceMap": "36:25:0:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract Character {\r\n\r\n}",
+  "sourcePath": "C:/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Character.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Character.sol",
+    "exportedSymbols": {
+      "Character": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Character",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "36:25:0"
+      }
+    ],
+    "src": "0:61:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Character.sol",
+    "exportedSymbols": {
+      "Character": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Character",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "36:25:0"
+      }
+    ],
+    "src": "0:61:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2018-12-19T18:04:06.357Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "contractName": "Barbarian",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820edc1590519bbf06e02bd8ef0e2f05b7af58044ef91d4673ca72b1fc85ec178860029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820edc1590519bbf06e02bd8ef0e2f05b7af58044ef91d4673ca72b1fc85ec178860029",
+  "sourceMap": "64:38:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;64:38:2;;;;;;;",
+  "deployedSourceMap": "64:38:2:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\n\r\nimport \"../Class.sol\";\r\n\r\ncontract Barbarian is Class {\r\n    \r\n}",
+  "sourcePath": "C:/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Classes/Barbarian.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Classes/Barbarian.sol",
+    "exportedSymbols": {
+      "Barbarian": [
+        11
+      ]
+    },
+    "id": 12,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:2"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 8,
+        "nodeType": "ImportDirective",
+        "scope": 12,
+        "sourceUnit": 6,
+        "src": "38:22:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 9,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "86:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 10,
+            "nodeType": "InheritanceSpecifier",
+            "src": "86:5:2"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11,
+        "linearizedBaseContracts": [
+          11,
+          5
+        ],
+        "name": "Barbarian",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 12,
+        "src": "64:38:2"
+      }
+    ],
+    "src": "0:102:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Classes/Barbarian.sol",
+    "exportedSymbols": {
+      "Barbarian": [
+        11
+      ]
+    },
+    "id": 12,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:2"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 8,
+        "nodeType": "ImportDirective",
+        "scope": 12,
+        "sourceUnit": 6,
+        "src": "38:22:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 9,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "86:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 10,
+            "nodeType": "InheritanceSpecifier",
+            "src": "86:5:2"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11,
+        "linearizedBaseContracts": [
+          11,
+          5
+        ],
+        "name": "Barbarian",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 12,
+        "src": "64:38:2"
+      }
+    ],
+    "src": "0:102:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2018-12-19T18:04:06.358Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

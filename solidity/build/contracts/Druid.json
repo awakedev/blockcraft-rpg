@@ -1,0 +1,175 @@
+{
+  "contractName": "Druid",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058209c611ed0df44d179aa783aa4a38f09943ec6a1595ccd5a0baa181ede076c9bcc0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058209c611ed0df44d179aa783aa4a38f09943ec6a1595ccd5a0baa181ede076c9bcc0029",
+  "sourceMap": "64:34:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;64:34:3;;;;;;;",
+  "deployedSourceMap": "64:34:3:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\n\r\nimport \"../Class.sol\";\r\n\r\ncontract Druid is Class {\r\n    \r\n}",
+  "sourcePath": "C:/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Classes/Druid.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Classes/Druid.sol",
+    "exportedSymbols": {
+      "Druid": [
+        17
+      ]
+    },
+    "id": 18,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 13,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:3"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 14,
+        "nodeType": "ImportDirective",
+        "scope": 18,
+        "sourceUnit": 6,
+        "src": "38:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 15,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "82:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 16,
+            "nodeType": "InheritanceSpecifier",
+            "src": "82:5:3"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 17,
+        "linearizedBaseContracts": [
+          17,
+          5
+        ],
+        "name": "Druid",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 18,
+        "src": "64:34:3"
+      }
+    ],
+    "src": "0:98:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Classes/Druid.sol",
+    "exportedSymbols": {
+      "Druid": [
+        17
+      ]
+    },
+    "id": 18,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 13,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:3"
+      },
+      {
+        "absolutePath": "/C/Users/Name/Documents/dev/solidity/b1ockcraft/solidity/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 14,
+        "nodeType": "ImportDirective",
+        "scope": 18,
+        "sourceUnit": 6,
+        "src": "38:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 15,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "82:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 16,
+            "nodeType": "InheritanceSpecifier",
+            "src": "82:5:3"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 17,
+        "linearizedBaseContracts": [
+          17,
+          5
+        ],
+        "name": "Druid",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 18,
+        "src": "64:34:3"
+      }
+    ],
+    "src": "0:98:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2018-12-19T18:04:06.358Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
